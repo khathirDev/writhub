@@ -1,0 +1,53 @@
+{
+  "name": "writhub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "clean": "rimraf .next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.10.2",
+    "@clerk/themes": "^2.2.12",
+    "@lexical/react": "0.16.1",
+    "@liveblocks/client": "2.16.2",
+    "@liveblocks/core": "2.16.2",
+    "@liveblocks/node": "2.16.2",
+    "@liveblocks/react": "2.16.2",
+    "@liveblocks/react-lexical": "2.16.2",
+    "@liveblocks/react-ui": "2.16.2",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-popover": "^1.1.14",
+    "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@sentry/nextjs": "^9.29.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lexical": "0.16.1",
+    "lucide-react": "^0.473.0",
+    "nanoid": "^5.1.0",
+    "next": "^15.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "jsm-editor": "^0.0.12",
+    "postcss": "^8",
+    "rimraf": "^5.0.5",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}
